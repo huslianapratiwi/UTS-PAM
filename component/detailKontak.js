@@ -19,7 +19,7 @@ export default function DetailScreen({ route, navigation }) {
     if (data.phoneNumbers != undefined) {
       return data.phoneNumbers[0].number;
     } else {
-      return "Tidak Ada Nomer";
+      return "Tidak Ada Nomor";
     }
   };
 
